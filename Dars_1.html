@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Birinchi Dars</title>
+    <link rel="stylesheet" href="/Dars_1.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Bosh sahifa</a></li>
+                <li><a href="#">Biz haqimizda</a></li>
+                <li><a href="#">Bog'lanish</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>HTML Birinchi Dars</h1>
+        <form action="/login" method="POST">
+            <section>
+                <h2>Ro'yhatdan o'tish</h2>
+            </section>
+            <input type="hidden" name="hidden" value="Bu yashirin maydon">
+            <label for="name">
+                Foydalanuvchi nomingizni kiriting
+                <input type="text" name="name" id="name" placeholder="Foydalanuvchi nomi kiriting" required autocomplete="name" />
+            </label>
+
+            <label for="email">
+                Emailingizni kiriting
+                <input type="email" name="email" id="email" placeholder="Emailingizni kiriting" required autocomplete="email" />
+            </label>
+
+            <label for="password">
+                Parolni kiriting
+                <input type="password" name="password" id="password" placeholder="Parolni kiriting" required />
+            </label>
+
+            <label for="tel">
+                Telefon raqamingizni kiriting
+                <input type="tel" name="tel" id="tel" placeholder="Telefon raqamingiz kiriting" required autocomplete="tel" />
+            </label>
+
+            <label for="date">
+                Tug'ilgan kuningizni kiriting
+                <input type="date" name="date" id="date" placeholder="Tug'ilgan kuningizni kiriting">
+            </label>
+
+            <select name="rol" id="">
+                <option value="user">Foydalanuvchi</option>
+                <option value="moderator">Moderator</option>
+            </select>
+
+            <label for="checkbox">
+                <input type="checkbox" id="checkbox" required>
+                Shartlarni qabul qilaman
+            </label>
+
+            <input type="submit" value="Ro'yhatdan o'tish">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 HTML Birinchi Dars. Sayt huquqlari himoyalangan.</p>
+    </footer>
+</body>
+
+</html>
