@@ -77,13 +77,13 @@ type="hidden" maydonlari brauzerda ko'rinmaydi, lekin DevTools orqali ko'rsa bo'
 Quyidagi talablar asosida HTML sahifa yaratasan.
 
 #### Shartlar:
-1. Sahifa <!DOCTYPE html> bilan boshlansin
+1. Sahifa `<!DOCTYPE html>` bilan boshlansin
 2. **Faqat semantik reglar** ishlatilsin (div ishlatilma asosiy tuzilish uchun)
 3. Sahifada bo'lishi kerak:
-    - **<header>** ── sayt nomi va <nav> (3ta havola: Bosh sahifa, Haqimizda, Bog'lanish)
-    - **<main>** ichida **<section>** ── "Ro'yhatdan o'tish" sarlavhasi bilan
+    - `<header>` ── sayt nomi va `<nav>` (3ta havola: Bosh sahifa, Haqimizda, Bog'lanish)
+    - `<main>` ichida `<section>` ── "Ro'yhatdan o'tish" sarlavhasi bilan
     - Forma: name, email, password, confirm_password, tel (telefon), data (tug'ilgan kun), select (rol: foydalanuvchi/moderator), checkbox (shartlarni qabul qilaman), submit tugmasi
-    - **<footer>** ── muallif huquqi matni
+    - `<footer>` ── muallif huquqi matni
 4. Har bir input da name atributi bo'lsin (xavfsizlik nuqtai nazaridan muhim)
 5. Formada method="POST" bo'lsin
 
